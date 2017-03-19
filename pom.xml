@@ -433,7 +433,7 @@
                 <version>${maven-checkstyle.version}</version>
                 <configuration>
                     <enableRulesSummary>true</enableRulesSummary>
-                    <suppressionsLocation>src/checkstyle/suppressions.xml</suppressionsLocation>
+                    <suppressionsLocation>src/main/resources/checkstyle/suppressions.xml</suppressionsLocation>
                 </configuration>
             </plugin>
             <plugin>
