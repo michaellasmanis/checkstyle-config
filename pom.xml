@@ -125,7 +125,6 @@
         <system>GitHub</system>
     </issueManagement>
 
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -305,15 +304,15 @@
                         <exclude>LICENSE</exclude>
                         <exclude>nb-licenseheader.txt</exclude>
                         <exclude>README.markdown</exclude>
-                        <exclude>src/it/basicTest/build_at_test_com.public.gpg</exclude>
-                        <exclude>src/it/basicTest/build_at_test_com.secret.asc</exclude>
                         <exclude>src/site/markdown/*</exclude>
+                        <exclude>.vagrant/**</exclude>
                     </excludes>
                     <mapping>
                         <markdown>DOUBLESLASH_STYLE</markdown>
                         <NOTICE>TEXT</NOTICE>
                         <copyright>TEXT</copyright>
                         <bsh>JAVADOC_STYLE</bsh>
+                        <Vagrantfile>SCRIPT_STYLE</Vagrantfile>
                     </mapping>
                 </configuration>
                 <executions>
