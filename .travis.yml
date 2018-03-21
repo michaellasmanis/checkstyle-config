@@ -1,8 +1,6 @@
 language: java
 script: mvn clean verify
-
 sudo: false
-
 addons:
   apt:
     packages:
@@ -10,3 +8,7 @@ addons:
 
 jdk:
    - oraclejdk8
+
+notifications:
+  slack:
+    secure: lMqCb4cJ8+ABJqIQ6TFX7MsU2gp4DZkqyieM8BILthv4YnBkSM7tX6HfuA6nXcHTPEkmArMGK1a/K3N1wdbgmG+enXUhnX9WDWwKbIUT6ZgN7xnDDQna+jIr6FQQuSF3Yw6RXluChXCU3+9+YuB0B+sj/5zLf8up+NZOfCYeA4v9oFWfHlAMqg+9rOKf4TrZ9fL6OPMTabZUmY2g0v56rGDi+YpBNOG+5Rqv6hUJZCh/jFGlOe4L30HgFNyjvRrzmyMNE18jTGN0O/kDeocg7gBII6HOYRpfN3eMuCFtVkcmlt3fSAMVwXCbmDecb5Wlz3DcKgzon31dRFsnFqPvmQJijyxcD/LTQhHjrKGSEpxkCDTMxX6etPp9Rne0Ee0Uv57895DehzXDvEiYKmYW8R2Dy9X2BgGBw9A7iUES9Db1r8gms8Cpc7VECeVX+x3uTtsJJqlkF+w+stUZrham77g4MlJmjNyy1SYb/5b4cEbUoIwNe6ZRdGFo3JbuH7C9ml/SWf9kcDNLd6oNLpFEXlJwdUkOaTg0SuhDPPAbTV1SDL2U9Wqke6dSb2VmPJiODEue40lQ3Q9NRI90SVA8+XoAIAi5N8Qylo/auuUGdvaUf+kocKSPKMA4CZM3LpSwIREO4AbprSt68NwjE4WYJpiJPOQUTLHkiWceUzmZaEk=
