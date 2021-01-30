@@ -20,19 +20,19 @@ under the License.
 <rss version="0.91">
   <channel>
     <title>Custom Checkstyle Configuration - Checkstyle report</title>
-    <link>https://github.com/michaellasmanis/checkstyle-config</link>
+    <link>${baseurl}</link>
     <description>Custom Checkstyle Configuration - Checkstyle report</description>
     <language>en-us</language>
-    <copyright>&#169;2017 - 2018 Michael Lasmanis</copyright>
+    <copyright>&#169;2017 - 2021 Michael Lasmanis</copyright>
     <item>
       <title>File: 0,
              Errors: 0,
              Warnings: 0,
              Infos: 0
       </title>
-            <link>https://github.com/michaellasmanis/checkstyle-config/checkstyle.html</link>
+            <link>${baseurl}/checkstyle.html</link>
       <description>
-        <p>Click <a href="https://github.com/michaellasmanis/checkstyle-config/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="${baseurl}/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
