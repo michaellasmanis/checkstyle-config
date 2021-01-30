@@ -4,7 +4,6 @@ Custom Checkstyle Configuration
 | Branch | Status |
 | ------ | ------ |
 |Master|[![Build Status](https://img.shields.io/circleci/project/github/michaellasmanis/checkstyle-config/master.svg)](https://circleci.com/gh/michaellasmanis/checkstyle-config/tree/master) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.lasmanis/checkstyle-config/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.lasmanis/checkstyle-config)|
-|Develop|[![Build Status](https://img.shields.io/circleci/project/github/michaellasmanis/checkstyle-config/develop.svg)](https://circleci.com/gh/michaellasmanis/checkstyle-config/tree/develop)|
 
 Overview
 --------
@@ -27,5 +26,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-
