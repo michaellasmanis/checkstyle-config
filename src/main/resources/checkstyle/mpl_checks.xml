@@ -126,9 +126,6 @@
 
         <!-- Checks for Size Violations.                    -->
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
-        <module name="LineLength">
-            <property name="ignorePattern" value="^ *\* *[^ ]+$"/>
-        </module>
         <module name="MethodLength"/>
         <module name="ParameterNumber"/>
 
@@ -179,7 +176,9 @@
 
         <!-- Checks for class design                         -->
         <!-- See http://checkstyle.sf.net/config_design.html -->
-        <module name="DesignForExtension"/>
+        <module name="DesignForExtension">
+          <property name="requiredJavadocPhrase" value="This implementation"/>
+        </module>
         <module name="FinalClass"/>
         <module name="HideUtilityClassConstructor"/>
         <module name="InterfaceIsType"/>
@@ -192,6 +191,11 @@
         <module name="TodoComment"/>
         <module name="UpperEll"/>
 
+    </module>
+
+    <module name="LineLength">
+        <property name="max" value="80"/>
+        <property name="ignorePattern" value="^ *\* *[^ ]+$"/>
     </module>
 
 </module>
