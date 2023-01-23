@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<licensePluginReport goal="CHECK" timestamp="1651963597395">
-    <module artifactId="checkstyle-config" groupId="com.lasmanis" version="0.0.53"/>
+<licensePluginReport goal="CHECK" timestamp="1674502750583">
+    <module artifactId="checkstyle-config" groupId="com.lasmanis" version="0.0.56"/>
     <files>
         <file path="NOTICE" result="PRESENT"/>
         <file path="pom.xml" result="PRESENT"/>
